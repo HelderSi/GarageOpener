@@ -15,7 +15,7 @@ $ sudo apt-get install apache2 php5 libapache2-mod-php5
 
 2- Copy the files into /var/www
 
-3- Make install executable:
+3- Make install.sh executable:
 
 $ chmod +x install.sh
 
