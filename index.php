@@ -7,7 +7,7 @@
 <body>
 <?php
 include "auth.php";
-if (isset($_POST["RightOPEN"]))
+if ($authinticated && isset($_POST["RightOPEN"]))
 {
 exec("sudo ./open.sh");
 }

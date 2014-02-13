@@ -7,7 +7,7 @@
 <body>
 <?
 include "auth.php";
-if(isset($_POST["gpio"]))
+if($authinticated && isset($_POST["gpio"]))
 {
 	exec("sudo ./gpioExport.sh");
 ?>

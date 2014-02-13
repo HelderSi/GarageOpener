@@ -7,7 +7,7 @@
 <body>
 <?php
 include "auth.php";
-if (isset($_POST["shutdown"]))
+if ($authinticated && isset($_POST["shutdown"]))
 {
 exec("sudo ./shutdown.sh");
 }
