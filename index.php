@@ -6,8 +6,6 @@
 </head>
 <body>
 <?php
-//start_session();
-//if(isset($_SESSION["user"]) && isset($_SESSION["pass"]) && $_SESSION["user"]=="baab" && $_SESSION["pass
 include "auth.php";
 if (isset($_POST["RightOPEN"]))
 {
