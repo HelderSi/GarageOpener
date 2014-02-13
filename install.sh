@@ -22,6 +22,7 @@ echo '$user = "'$user'";' >> config.php
 echo '$pass = "'$pass'";' >> config.php
 echo '?>' >> config.php
 
+./gpio.sh
 echo 'Installed successfully.'
 echo 'Please go to http://RASPI-IP-ADDRESS/gpio.php to export the GPIO pin'
 echo 'This is a one time step'
