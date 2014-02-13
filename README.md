@@ -23,3 +23,7 @@ $ sudo ./install.sh
 6- Go to http://RasPi-IP-ADDRESS/ and login
 
 7- Click افتح to open and close.
+
+
+
+~Wail
