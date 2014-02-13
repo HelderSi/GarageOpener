@@ -22,5 +22,5 @@ echo '$user = "'$user'";' >> config.php
 echo '$pass = "'$pass'";' >> config.php
 echo '?>' >> config.php
 
-./gpio.sh
+./gpioExport.sh
 echo 'Installed successfully.'
