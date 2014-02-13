@@ -4,6 +4,7 @@ GarageOpener
 Garage Opener using your smartphone and Raspberry Pi.
 
 INSTALL
+============
 
 1- Install Apache and php5:
 
