@@ -30,4 +30,4 @@ $ sudo ./install.sh
 7- Click افتح to open and close.
 
 
-~Wail
+~Wael
